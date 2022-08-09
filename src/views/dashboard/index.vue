@@ -1,12 +1,14 @@
 <template>
   <div class="dashboard-container">
     <div class="dashboard-text">name: {{ name }}</div>
+    <!-- <UploadExcel /> -->
+    <!-- <ImageUpload /> -->
   </div>
 </template>
 
 <script>
 import { mapGetters } from 'vuex'
-
+// import { mixins } from '@/utils/mixins'
 export default {
   name: 'Dashboard',
   computed: {
@@ -14,6 +16,7 @@ export default {
       'name'
     ])
   }
+
 }
 </script>
 
